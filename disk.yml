@@ -1,5 +1,5 @@
 ---
-- hosts: win
+- hosts: winserver
   tasks:
   - name: Get disk facts
     win_disk_facts:
